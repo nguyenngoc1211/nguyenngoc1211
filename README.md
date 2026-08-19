@@ -1,254 +1,210 @@
-<!--
-  NGUYEN VAN NGOC // CYBER OPERATIONS PROFILE
-  github.com/nguyenngoc1211
--->
-
 <div align="center">
 
-<img src="./assets/cyber-banner.svg" width="100%" alt="Nguyen Van Ngoc Cybersecurity Profile Banner"/>
+<img src="./assets/hero.svg" width="100%" alt="Nguyen Van Ngoc Cybersecurity Portfolio"/>
 
-<br/>
+<br>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=2300&pause=650&color=00F5FF&center=true&vCenter=true&width=900&lines=%5BBOOT%5D+Cybersecurity+profile+initialized;%5BSOC%5D+Threat+Detection+%2F+Threat+Hunting;%5BCTF%5D+Web+%2F+Reverse+%2F+Forensics+%2F+Crypto;%5BSTATUS%5D+Learning.+Building.+Hunting." alt="Typing animation"/>
+<img src="https://readme-typing-svg.demolab.com?font=IBM+Plex+Mono&weight=600&size=18&duration=2600&pause=900&color=7DE7FF&center=true&vCenter=true&width=760&lines=Threat+Detection+%2F+Threat+Hunting+%2F+SOC;CTF+%2F+Security+Research+%2F+DFIR;Building+security+systems+that+make+sense." alt="Typing intro"/>
 
-<br/>
+<br>
 
-<img src="https://komarev.com/ghpvc/?username=nguyenngoc1211&label=PROFILE%20VIEWS&color=7b2cbf&style=for-the-badge" alt="Profile views"/>
-<img src="https://img.shields.io/github/followers/nguyenngoc1211?label=FOLLOWERS&style=for-the-badge&color=00b4d8" alt="Followers"/>
-<img src="https://img.shields.io/github/stars/nguyenngoc1211?affiliations=OWNER&label=STARS&style=for-the-badge&color=ff2e88" alt="Stars"/>
+[![GitHub](https://img.shields.io/badge/GitHub-nguyenngoc1211-111318?style=flat-square&logo=github&logoColor=white)](https://github.com/nguyenngoc1211)
+![Profile Views](https://komarev.com/ghpvc/?username=nguyenngoc1211&style=flat-square&color=6C63FF)
+![Focus](https://img.shields.io/badge/Focus-Defensive%20Security-0F172A?style=flat-square)
 
 </div>
 
-<br/>
-
-<img src="./assets/terminal.svg" width="100%" alt="Cybersecurity terminal introduction"/>
-
 ---
 
-## `01 // OPERATOR_IDENTITY`
+## 01 / IDENTITY
 
-```yaml
-operator:
-  name: "Nguyen Van Ngoc"
-  handle: "@nguyenngoc1211"
-  university: "Posts and Telecommunications Institute of Technology (PTIT)"
-  major: "Information Security"
+```text
+NGUYEN VAN NGOC
+Information Security @ PTIT
 
-focus:
-  - SOC
-  - Threat Detection
-  - Threat Hunting
-  - Incident Analysis
+FOCUS
+Threat Detection / Threat Hunting / SOC
 
-interests:
-  - Web Security
-  - Digital Forensics
-  - Reverse Engineering
-  - Cryptography
-  - Security Automation
-  - CTF
+INTERESTS
+Web Security / DFIR / Reverse Engineering / Cryptography / CTF
 
-mission: "Understand attacks. Find traces. Build detections."
+MISSION
+Understand attacks. Find traces. Build detections.
 ```
 
-<div align="center">
+I am an Information Security student at PTIT, focused on defensive security and practical security research.
 
-![SOC](https://img.shields.io/badge/SOC-00F5FF?style=for-the-badge&logo=hackthebox&logoColor=000)
-![Threat Detection](https://img.shields.io/badge/THREAT%20DETECTION-7B2CBF?style=for-the-badge&logo=target&logoColor=fff)
-![Threat Hunting](https://img.shields.io/badge/THREAT%20HUNTING-FF2E88?style=for-the-badge&logo=searchengin&logoColor=fff)
-![CTF](https://img.shields.io/badge/CTF-39FF14?style=for-the-badge&logo=flag&logoColor=000)
-
-</div>
+I like turning messy technical evidence into something understandable: logs, artifacts, attack behavior, detection logic, and write-ups.
 
 ---
 
-## `02 // ACTIVE_OPERATIONS`
+## 02 / SELECTED OPERATIONS
 
-<img src="./assets/mission-grid.svg" width="100%" alt="Featured cybersecurity operations"/>
+<img src="./assets/operations.svg" width="100%" alt="Selected cybersecurity operations"/>
 
-### `OP-01 // WEB SENTINEL` 🛡️
-**Web Threat Early Warning** — ML-assisted web attack detection & alert pipeline.
+### `01 — WEB THREAT EARLY WARNING`
+ML-assisted web attack detection and automated alert pipeline.
 
-`Nginx/Apache Logs` → `Feature Extraction` → `ML Detection` → `FastAPI` → `SQLite` → `n8n` → `Alert`
+`Nginx/Apache Logs` → `Feature Extraction` → `ML Detection` → `FastAPI` → `SQLite` → `n8n`
 
-[![OPEN OPERATION](https://img.shields.io/badge/OPEN%20OPERATION-WEB%20THREAT%20EARLY%20WARNING-00F5FF?style=for-the-badge&logo=github&logoColor=000)](https://github.com/nguyenngoc1211/web-threat-early-warning)
+[**Explore project ↗**](https://github.com/nguyenngoc1211/web-threat-early-warning)
 
-### `OP-02 // APT HUNTER` 🎯
-Threat-hunting practice focused on adversary behavior, indicators, artifacts and investigation workflow.
+### `02 — APT THREAT HUNTING`
+Threat-hunting practice centered on attacker behavior, artifacts and indicators.
 
-`Threat Hunting` · `APT Analysis` · `IOC Analysis` · `Attack Behavior` · `Security Investigation`
+`Threat Hunting` · `APT Analysis` · `IOC Analysis` · `Security Investigation`
 
-[![OPEN OPERATION](https://img.shields.io/badge/OPEN%20OPERATION-APT%20THREAT%20HUNTER-9D4EDD?style=for-the-badge&logo=github&logoColor=fff)](https://github.com/nguyenngoc1211/threat_hunter_APT)
+[**Explore project ↗**](https://github.com/nguyenngoc1211/threat_hunter_APT)
 
-### `OP-03 // CTF ARCHIVE` 🚩
-Write-ups, scripts, payloads and notes from security challenges.
+### `03 — CTF ARCHIVE`
+Write-ups, scripts, payloads and challenge notes.
 
 `Web` · `Reverse Engineering` · `Digital Forensics` · `Cryptography`
 
-[![OPEN ARCHIVE](https://img.shields.io/badge/OPEN%20ARCHIVE-CTF%20WRITE--UPS-FF2E88?style=for-the-badge&logo=github&logoColor=fff)](https://github.com/nguyenngoc1211/WU-CTF)
+[**Read write-ups ↗**](https://github.com/nguyenngoc1211/WU-CTF)
 
-### `OP-04 // CRYPTO MAIL` 🔐
-Hybrid email encryption implementation using modern cryptographic primitives.
+### `04 — HYBRID MAIL ENCRYPTION`
+Hybrid cryptography for secure email content and attachments.
 
 `AES-256-GCM` · `RSA-OAEP` · `RSA-PSS` · `SHA-256`
 
-[![OPEN OPERATION](https://img.shields.io/badge/OPEN%20OPERATION-HYBRID%20MAIL%20ENCRYPTION-F9C74F?style=for-the-badge&logo=github&logoColor=000)](https://github.com/nguyenngoc1211/ma_lai_RSA_va_AES_ung_dung_ma_hoa_email)
+[**Explore project ↗**](https://github.com/nguyenngoc1211/ma_lai_RSA_va_AES_ung_dung_ma_hoa_email)
 
 ---
 
-## `03 // CYBER_ARSENAL`
+## 03 / CAPABILITIES
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### 🛡️ Defensive
-`Threat Detection`  
-`Threat Hunting`  
-`Log Analysis`  
-`SOC`  
-`Incident Analysis`
+### DEFENSIVE
+Threat Detection  
+Threat Hunting  
+SOC  
+Log Analysis  
+Incident Analysis
 
 </td>
 <td width="50%" valign="top">
 
-### ⚔️ Security Tools
-`Wireshark`  
-`Burp Suite`  
-`Nmap`  
-`IDA Pro`  
-`cURL`
+### SECURITY
+Wireshark  
+Burp Suite  
+Nmap  
+IDA Pro  
+cURL
 
 </td>
 </tr>
+
 <tr>
 <td width="50%" valign="top">
 
-### 💻 Engineering
-`Python`  
-`C / C++`  
-`Java`  
-`JavaScript`  
-`Shell`
+### ENGINEERING
+Python  
+C / C++  
+Java  
+JavaScript  
+Shell
 
 </td>
 <td width="50%" valign="top">
 
-### 🐧 Infrastructure
-`Linux`  
-`Docker`  
-`Nginx`  
-`Networking`  
-`Git / GitHub`
+### INFRASTRUCTURE
+Linux  
+Docker  
+Nginx  
+Networking  
+Git / GitHub
 
 </td>
 </tr>
 </table>
 
 <div align="center">
-
-<img src="https://skillicons.dev/icons?i=python,c,cpp,java,js,bash,linux,docker,nginx,mysql,git,github&theme=dark" alt="Tech stack"/>
-
+<img src="https://skillicons.dev/icons?i=python,cpp,java,js,bash,linux,docker,nginx,mysql,git,github&theme=dark" alt="Technology stack"/>
 </div>
 
 ---
 
-## `04 // ACHIEVEMENTS_UNLOCKED`
+## 04 / ACHIEVEMENTS
 
 ```text
-[UNLOCKED] 🥇 1st Prize            // D23 miniCTF 2024
-[UNLOCKED] 🏅 Honorable Mention    // PTITCTF 2025
-[UNLOCKED] 🎓 Academic Scholarship // First academic year
-[UNLOCKED] 🛡️ Penetration Testing  // Samsung certificate
-[TRAINING] 🤖 Applied AI & ML      // Network & Information Security
+2024  —  1st Prize, D23 miniCTF
+2025  —  Honorable Mention, PTITCTF
+      —  Academic Scholarship
+      —  Samsung Penetration Testing Certificate
+      —  Applied AI & ML for Network and Information Security
 ```
 
 ---
 
-## `05 // FIELD_EXPERIENCE`
+## 05 / EXPERIENCE
 
-```text
-HYTECH SOLUTIONS
-└── IT Infrastructure Intern
-    ├── Linux
-    ├── Networking
-    ├── Docker
-    ├── Nginx
-    ├── Python / Shell
-    └── CI/CD
-```
+### IT Infrastructure Intern — Hytech Solutions
 
-My infrastructure background helps me understand the systems, traffic and telemetry behind security monitoring and incident investigation.
+`Linux` · `Networking` · `Docker` · `Nginx` · `Python` · `CI/CD`
+
+Infrastructure experience gives me a stronger foundation for understanding the systems, network behavior and telemetry behind security monitoring.
 
 ---
 
-## `06 // GITHUB_TELEMETRY`
+## 06 / GITHUB SIGNAL
 
 <div align="center">
 
-<!--
-  This file is a cyber-style placeholder on first push.
-  After you add METRICS_TOKEN, .github/workflows/metrics.yml
-  will replace it with live GitHub metrics.
--->
-<img src="./github-metrics.svg" width="95%" alt="GitHub telemetry"/>
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=nguyenngoc1211&show_icons=true&theme=transparent&hide_border=true&title_color=7DE7FF&text_color=C9D3E4&icon_color=A78BFA&rank_icon=github" />
+
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nguyenngoc1211&layout=compact&theme=transparent&hide_border=true&title_color=7DE7FF&text_color=C9D3E4" />
+
+<br>
+
+<img width="92%" src="https://github-readme-activity-graph.vercel.app/graph?username=nguyenngoc1211&bg_color=00000000&color=9CA3AF&line=7DE7FF&point=A78BFA&area=true&hide_border=true" />
 
 </div>
 
 ---
 
-## `07 // CONTRIBUTION_HUNTER`
+## 07 / CONTRIBUTION TRACE
 
 <div align="center">
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/nguyenngoc1211/nguyenngoc1211/output/github-contribution-grid-snake-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/nguyenngoc1211/nguyenngoc1211/output/github-contribution-grid-snake.svg">
-  <img alt="GitHub contribution snake" src="https://raw.githubusercontent.com/nguyenngoc1211/nguyenngoc1211/output/github-contribution-grid-snake-dark.svg">
+  <img alt="Contribution snake" src="https://raw.githubusercontent.com/nguyenngoc1211/nguyenngoc1211/output/github-contribution-grid-snake-dark.svg">
 </picture>
 
 </div>
 
-> `snake.yml` generates this automatically from your real contribution graph.
-
 ---
 
-## `08 // CURRENT_MISSION`
+## 08 / CURRENT FOCUS
 
 ```python
-while True:
-    learn("defensive security")
-    analyze("attack behavior")
-    hunt("suspicious activity")
-    build("detections")
-    solve("CTF challenges")
-```
+current_focus = [
+    "Threat Detection",
+    "Threat Hunting",
+    "SOC Workflow",
+    "Incident Analysis",
+    "Security Automation",
+]
 
-```text
-┌──(ngoc㉿soc)-[~/future]
-└─$ cat mission.txt
-
-Understand attacks.
-Find the traces they leave behind.
-Detect them better next time.
-
-┌──(ngoc㉿soc)-[~/future]
-└─$ █
+while learning:
+    build()
+    investigate()
+    document()
+    improve()
 ```
 
 ---
 
-## `09 // CONNECT`
+<img src="./assets/footer.svg" width="100%" alt="Break Analyze Understand Detect"/>
 
 <div align="center">
 
-[![GitHub](https://img.shields.io/badge/GITHUB-nguyenngoc1211-181717?style=for-the-badge&logo=github)](https://github.com/nguyenngoc1211)
-[![Email](https://img.shields.io/badge/EMAIL-hieuhuu113%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:hieuhuu113@gmail.com)
-
-<br/><br/>
-
-### `HACK // ANALYZE // DETECT // REPEAT`
-
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=15&duration=3000&pause=900&color=FF2E88&center=true&vCenter=true&width=600&lines=%5B%2B%5D+Always+learning;%5B%2B%5D+Always+building;%5B%2B%5D+Always+hunting" alt="Footer typing animation"/>
+[![Email](https://img.shields.io/badge/EMAIL-hieuhuu113%40gmail.com-16181D?style=flat-square&logo=gmail&logoColor=white)](mailto:hieuhuu113@gmail.com)
+[![GitHub](https://img.shields.io/badge/GITHUB-nguyenngoc1211-16181D?style=flat-square&logo=github&logoColor=white)](https://github.com/nguyenngoc1211)
 
 </div>

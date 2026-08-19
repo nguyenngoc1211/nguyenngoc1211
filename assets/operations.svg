@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="720" viewBox="0 0 1400 720">
+<defs>
+  <linearGradient id="b" x1="0" x2="1"><stop stop-color="#090B10"/><stop offset="1" stop-color="#0E0D14"/></linearGradient>
+</defs>
+<rect width="1400" height="720" rx="24" fill="url(#b)"/>
+<text x="50" y="55" fill="#64748B" font-family="monospace" font-size="14" letter-spacing="3">SELECTED OPERATIONS / INDEX</text>
+
+<!-- Card 1 -->
+<rect x="50" y="95" width="630" height="245" rx="18" fill="#0D1117" stroke="#263041"/>
+<text x="82" y="130" fill="#7DE7FF" font-family="monospace" font-size="14">01 / DEFENSIVE</text>
+<text x="82" y="180" fill="#F8FAFC" font-family="Arial" font-weight="700" font-size="34">WEB THREAT</text>
+<text x="82" y="218" fill="#F8FAFC" font-family="Arial" font-weight="700" font-size="34">EARLY WARNING</text>
+<text x="82" y="260" fill="#94A3B8" font-family="monospace" font-size="14">Logs → Features → ML → Alerting</text>
+<text x="82" y="307" fill="#64748B" font-family="monospace" font-size="13">Python / FastAPI / Docker / Nginx</text>
+
+<!-- Card 2 -->
+<rect x="720" y="95" width="630" height="245" rx="18" fill="#0D1117" stroke="#31294A"/>
+<text x="752" y="130" fill="#A78BFA" font-family="monospace" font-size="14">02 / HUNT</text>
+<text x="752" y="180" fill="#F8FAFC" font-family="Arial" font-weight="700" font-size="34">APT THREAT</text>
+<text x="752" y="218" fill="#F8FAFC" font-family="Arial" font-weight="700" font-size="34">HUNTING</text>
+<text x="752" y="260" fill="#94A3B8" font-family="monospace" font-size="14">Behavior → Artifacts → IOC → Investigation</text>
+<text x="752" y="307" fill="#64748B" font-family="monospace" font-size="13">Threat Hunting / APT / IOC Analysis</text>
+
+<!-- Card 3 -->
+<rect x="50" y="380" width="630" height="245" rx="18" fill="#0D1117" stroke="#402536"/>
+<text x="82" y="415" fill="#FF5C9A" font-family="monospace" font-size="14">03 / RESEARCH</text>
+<text x="82" y="465" fill="#F8FAFC" font-family="Arial" font-weight="700" font-size="34">CTF</text>
+<text x="82" y="503" fill="#F8FAFC" font-family="Arial" font-weight="700" font-size="34">ARCHIVE</text>
+<text x="82" y="545" fill="#94A3B8" font-family="monospace" font-size="14">Web / Reverse / Forensics / Crypto</text>
+<text x="82" y="592" fill="#64748B" font-family="monospace" font-size="13">Write-ups / Scripts / Payloads / Notes</text>
+
+<!-- Card 4 -->
+<rect x="720" y="380" width="630" height="245" rx="18" fill="#0D1117" stroke="#4A3E20"/>
+<text x="752" y="415" fill="#F9C74F" font-family="monospace" font-size="14">04 / CRYPTO</text>
+<text x="752" y="465" fill="#F8FAFC" font-family="Arial" font-weight="700" font-size="34">HYBRID MAIL</text>
+<text x="752" y="503" fill="#F8FAFC" font-family="Arial" font-weight="700" font-size="34">ENCRYPTION</text>
+<text x="752" y="545" fill="#94A3B8" font-family="monospace" font-size="14">AES-256-GCM / RSA-OAEP / RSA-PSS</text>
+<text x="752" y="592" fill="#64748B" font-family="monospace" font-size="13">Confidentiality / Integrity / Authenticity</text>
+
+<text x="50" y="680" fill="#475569" font-family="monospace" font-size="12">github.com/nguyenngoc1211</text>
+</svg>

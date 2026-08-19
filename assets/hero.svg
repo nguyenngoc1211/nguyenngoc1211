@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="620" viewBox="0 0 1400 620">
+<defs>
+  <linearGradient id="bg" x1="0" x2="1">
+    <stop offset="0" stop-color="#07090E"/>
+    <stop offset="0.55" stop-color="#0B0D13"/>
+    <stop offset="1" stop-color="#100A14"/>
+  </linearGradient>
+  <linearGradient id="accent" x1="0" x2="1">
+    <stop offset="0" stop-color="#7DE7FF"/>
+    <stop offset="0.5" stop-color="#A78BFA"/>
+    <stop offset="1" stop-color="#FF5C9A"/>
+  </linearGradient>
+  <filter id="soft">
+    <feGaussianBlur stdDeviation="5" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+    <path d="M48 0H0V48" fill="none" stroke="#7DE7FF" stroke-width="1" stroke-opacity=".035"/>
+  </pattern>
+</defs>
+
+<rect width="1400" height="620" rx="26" fill="url(#bg)"/>
+<rect width="1400" height="620" rx="26" fill="url(#grid)"/>
+
+<text x="72" y="72" font-family="monospace" font-size="15" fill="#64748B" letter-spacing="4">PORTFOLIO / 01 — SECURITY</text>
+<text x="1265" y="72" font-family="monospace" font-size="15" fill="#7DE7FF" text-anchor="end">PTIT / 2026</text>
+
+<text x="70" y="205" font-family="Arial,Helvetica,sans-serif" font-size="112" font-weight="800" fill="#F8FAFC" letter-spacing="-4">NGOC</text>
+<text x="70" y="305" font-family="Arial,Helvetica,sans-serif" font-size="112" font-weight="800" fill="#F8FAFC" letter-spacing="-4">VAN</text>
+<text x="70" y="405" font-family="Arial,Helvetica,sans-serif" font-size="112" font-weight="800" fill="#F8FAFC" letter-spacing="-4">NGOC.</text>
+
+<rect x="72" y="444" width="590" height="4" fill="url(#accent)" filter="url(#soft)"/>
+
+<text x="825" y="182" font-family="Arial,Helvetica,sans-serif" font-size="38" font-weight="700" fill="#7DE7FF" letter-spacing="1">CYBERSECURITY</text>
+<text x="825" y="224" font-family="Arial,Helvetica,sans-serif" font-size="19" fill="#C8D1E0" letter-spacing="3">THREAT DETECTION</text>
+<text x="825" y="258" font-family="Arial,Helvetica,sans-serif" font-size="19" fill="#C8D1E0" letter-spacing="3">THREAT HUNTING</text>
+<text x="825" y="292" font-family="Arial,Helvetica,sans-serif" font-size="19" fill="#C8D1E0" letter-spacing="3">SOC / CTF / DFIR</text>
+
+<text x="825" y="374" font-family="monospace" font-size="13" fill="#64748B" letter-spacing="2">CURRENT SIGNAL</text>
+<text x="825" y="409" font-family="monospace" font-size="17" fill="#F8FAFC">LEARNING</text>
+<text x="1065" y="409" font-family="monospace" font-size="17" fill="#7DE7FF">ACTIVE</text>
+<line x1="825" y1="426" x2="1150" y2="426" stroke="#1F2937" stroke-width="6"/>
+<line x1="825" y1="426" x2="1105" y2="426" stroke="#7DE7FF" stroke-width="6"/>
+
+<text x="825" y="469" font-family="monospace" font-size="17" fill="#F8FAFC">BUILDING</text>
+<text x="1065" y="469" font-family="monospace" font-size="17" fill="#A78BFA">ACTIVE</text>
+<line x1="825" y1="486" x2="1150" y2="486" stroke="#1F2937" stroke-width="6"/>
+<line x1="825" y1="486" x2="1075" y2="486" stroke="#A78BFA" stroke-width="6"/>
+
+<text x="825" y="529" font-family="monospace" font-size="17" fill="#F8FAFC">HUNTING</text>
+<text x="1065" y="529" font-family="monospace" font-size="17" fill="#FF5C9A">ONLINE</text>
+<line x1="825" y1="546" x2="1150" y2="546" stroke="#1F2937" stroke-width="6"/>
+<line x1="825" y1="546" x2="1125" y2="546" stroke="#FF5C9A" stroke-width="6"/>
+
+<circle cx="1290" cy="160" r="6" fill="#7DE7FF" filter="url(#soft)"/>
+<circle cx="1318" cy="160" r="6" fill="#A78BFA" filter="url(#soft)"/>
+<circle cx="1346" cy="160" r="6" fill="#FF5C9A" filter="url(#soft)"/>
+</svg>

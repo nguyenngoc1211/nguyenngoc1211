@@ -1,57 +1,54 @@
-# SETUP — NGOC // CYBER OPERATIONS PROFILE
+# QUICK SETUP
 
-## 1. Tạo đúng repository
+## 1. Repository name
 
-Repository phải là:
+Create a **public** repository named exactly:
 
 ```text
-nguyenngoc1211/nguyenngoc1211
+nguyenngoc1211
 ```
 
-GitHub tự hiển thị `README.md` của public repository trùng username lên trang profile.
+Because your GitHub username is also `nguyenngoc1211`.
 
-## 2. Push toàn bộ thư mục này
+## 2. Copy everything
 
-Nếu repository đã tạo sẵn:
+Extract this ZIP and copy all files into the repository, including the hidden `.github` folder.
 
-```bash
-git clone https://github.com/nguyenngoc1211/nguyenngoc1211.git
-cd nguyenngoc1211
+Structure:
+
+```text
+.
+├── README.md
+├── SETUP.md
+├── assets
+│   ├── hero.svg
+│   ├── operations.svg
+│   └── footer.svg
+└── .github
+    └── workflows
+        └── snake.yml
 ```
 
-Copy **toàn bộ nội dung** trong package này vào repo, gồm cả thư mục ẩn `.github`.
-
-Sau đó:
+## 3. Push
 
 ```bash
 git add .
-git commit -m "feat: launch cyber operations profile"
+git commit -m "feat: redesign github profile"
 git push origin main
 ```
 
-## 3. Snake
+## 4. Run the snake once
 
-Không cần secret riêng.
-
-Sau khi push:
+Go to:
 
 ```text
-GitHub repo
+Repository
 → Actions
-→ Generate Contribution Snake
+→ Contribution Snake
 → Run workflow
 ```
 
-Workflow sẽ tạo branch `output`.
-
-README đã trỏ tới:
-
-```text
-output/github-contribution-grid-snake.svg
-output/github-contribution-grid-snake-dark.svg
-```
-
-Nếu repository đang chặn GitHub Actions ghi nội dung:
+If Actions cannot push the generated `output` branch:
 
 ```text
 Settings
@@ -62,97 +59,39 @@ Settings
 → Save
 ```
 
-## 4. Live GitHub Metrics — tùy chọn nhưng nên bật
+Then rerun the workflow.
 
-Profile đã có `github-metrics.svg` placeholder nên **push xong vẫn đẹp ngay**.
+## 5. Pin these repositories
 
-Muốn biến nó thành live telemetry, tạo GitHub Personal Access Token theo hướng dẫn của `lowlighter/metrics`, dùng quyền tối thiểu cần thiết cho dữ liệu bạn muốn hiển thị.
-
-Sau đó vào:
-
-```text
-Repository
-→ Settings
-→ Secrets and variables
-→ Actions
-→ New repository secret
-```
-
-Tên secret:
-
-```text
-METRICS_TOKEN
-```
-
-Paste token vào.
-
-Tiếp theo:
-
-```text
-Actions
-→ GitHub Metrics
-→ Run workflow
-```
-
-Workflow sẽ tự thay `github-metrics.svg` bằng telemetry thật.
-
-## 5. Những repo nên Pin
-
-Vào profile:
-
-```text
-Customize your pins
-```
-
-Ưu tiên:
+Recommended order:
 
 1. web-threat-early-warning
 2. threat_hunter_APT
 3. WU-CTF
 4. ma_lai_RSA_va_AES_ung_dung_ma_hoa_email
 
-Sau đó thêm 2 project tốt nhất còn lại.
+Then choose your two best remaining repositories.
 
-## 6. About profile gợi ý
+## 6. Suggested GitHub bio
 
 ```text
 Cybersecurity Student @ PTIT
 SOC | Threat Detection | Threat Hunting | CTF
 ```
 
-## 7. Nếu muốn chỉnh màu
+## 7. Design language
 
-Các màu chính trong SVG:
+This version intentionally avoids the “gaming hacker dashboard” look.
 
-```text
-Neon Cyan   #00F5FF
-Purple      #9D4EDD
-Pink        #FF2E88
-Terminal    #39FF14
-Background  #050816
-```
-
-Search/replace các mã màu trong `assets/*.svg`.
-
-## 8. Cấu trúc package
+Palette:
 
 ```text
-.
-├── README.md
-├── SETUP.md
-├── github-metrics.svg
-├── assets
-│   ├── cyber-banner.svg
-│   ├── terminal.svg
-│   └── mission-grid.svg
-└── .github
-    └── workflows
-        ├── metrics.yml
-        └── snake.yml
+Background      #090B10
+Primary cyan    #7DE7FF
+Violet          #A78BFA
+Pink accent     #FF5C9A
+Text            #F8FAFC
+Muted text      #94A3B8
 ```
 
-## Lưu ý
-
-- Không commit Personal Access Token vào code.
-- Chỉ lưu token bằng GitHub Actions Secrets.
-- `METRICS_TOKEN` là tùy chọn; snake dùng `GITHUB_TOKEN` GitHub tự cấp cho workflow.
+The hero and project cards are custom local SVG assets, so the profile has a consistent visual identity rather than looking like a generic README generator.
