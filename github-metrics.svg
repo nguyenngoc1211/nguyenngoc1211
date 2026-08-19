@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="260" viewBox="0 0 900 260">
+<defs>
+  <linearGradient id="bg" x1="0" x2="1"><stop stop-color="#070b15"/><stop offset="1" stop-color="#100719"/></linearGradient>
+</defs>
+<rect width="900" height="260" rx="16" fill="url(#bg)" stroke="#263554"/>
+<text x="35" y="48" font-family="monospace" font-size="14" fill="#7183a0" letter-spacing="2">GITHUB TELEMETRY // STANDBY</text>
+<text x="35" y="92" font-family="monospace" font-size="24" fill="#00f5ff">METRICS ENGINE READY</text>
+<text x="35" y="130" font-family="monospace" font-size="14" fill="#c5d2e5">Add the METRICS_TOKEN repository secret to enable live telemetry.</text>
+<text x="35" y="160" font-family="monospace" font-size="14" fill="#9d4edd">.github/workflows/metrics.yml</text>
+<rect x="35" y="195" width="820" height="7" rx="3" fill="#172033"/>
+<rect x="35" y="195" width="575" height="7" rx="3" fill="#00f5ff">
+  <animate attributeName="width" values="120;760;120" dur="4s" repeatCount="indefinite"/>
+</rect>
+<text x="35" y="230" font-family="monospace" font-size="12" fill="#697a96">STATUS: WAITING FOR AUTHORIZED TELEMETRY TOKEN</text>
+</svg>

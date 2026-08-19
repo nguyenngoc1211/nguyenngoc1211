@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420">
+<defs>
+  <linearGradient id="mBg" x1="0" x2="1"><stop stop-color="#060914"/><stop offset="1" stop-color="#0d0714"/></linearGradient>
+  <filter id="mg"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="1200" height="420" rx="18" fill="url(#mBg)"/>
+<text x="32" y="42" fill="#8292ad" font-size="14" font-family="monospace" letter-spacing="3">ACTIVE OPERATIONS // 04 MODULES</text>
+
+<!-- Cards -->
+<g font-family="monospace">
+<rect x="30" y="70" width="555" height="140" rx="12" fill="#0b1220" stroke="#00f5ff" stroke-opacity=".8"/>
+<text x="55" y="101" fill="#00f5ff" font-size="13">OP-01 // BLUE TEAM</text>
+<text x="55" y="135" fill="#fff" font-size="24" font-weight="700">WEB SENTINEL</text>
+<text x="55" y="165" fill="#a9b8cf" font-size="14">Web logs → ML detection → SOC alert</text>
+<text x="55" y="192" fill="#39ff14" font-size="13">STATUS: ACTIVE</text>
+<circle cx="548" cy="99" r="5" fill="#39ff14" filter="url(#mg)"/>
+
+<rect x="615" y="70" width="555" height="140" rx="12" fill="#0b1220" stroke="#9d4edd" stroke-opacity=".9"/>
+<text x="640" y="101" fill="#9d4edd" font-size="13">OP-02 // HUNT</text>
+<text x="640" y="135" fill="#fff" font-size="24" font-weight="700">APT HUNTER</text>
+<text x="640" y="165" fill="#a9b8cf" font-size="14">Behavior → artifacts → IOC → investigation</text>
+<text x="640" y="192" fill="#ff2e88" font-size="13">STATUS: HUNTING</text>
+<circle cx="1133" cy="99" r="5" fill="#ff2e88" filter="url(#mg)"/>
+
+<rect x="30" y="240" width="555" height="140" rx="12" fill="#0b1220" stroke="#ff2e88" stroke-opacity=".9"/>
+<text x="55" y="271" fill="#ff2e88" font-size="13">OP-03 // SECURITY RESEARCH</text>
+<text x="55" y="305" fill="#fff" font-size="24" font-weight="700">CTF ARCHIVE</text>
+<text x="55" y="335" fill="#a9b8cf" font-size="14">Web / Reverse / Forensics / Cryptography</text>
+<text x="55" y="362" fill="#00f5ff" font-size="13">STATUS: EXPANDING</text>
+<circle cx="548" cy="269" r="5" fill="#00f5ff" filter="url(#mg)"/>
+
+<rect x="615" y="240" width="555" height="140" rx="12" fill="#0b1220" stroke="#f9c74f" stroke-opacity=".9"/>
+<text x="640" y="271" fill="#f9c74f" font-size="13">OP-04 // CRYPTOGRAPHY</text>
+<text x="640" y="305" fill="#fff" font-size="24" font-weight="700">CRYPTO MAIL</text>
+<text x="640" y="335" fill="#a9b8cf" font-size="14">AES-256-GCM / RSA-OAEP / RSA-PSS</text>
+<text x="640" y="362" fill="#39ff14" font-size="13">STATUS: DEPLOYED</text>
+<circle cx="1133" cy="269" r="5" fill="#39ff14" filter="url(#mg)"/>
+</g>
+</svg>
