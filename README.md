@@ -1,210 +1,208 @@
 <div align="center">
 
-<img src="./assets/hero.svg" width="100%" alt="Nguyen Van Ngoc Cybersecurity Portfolio"/>
+<img src="./assets/classified-header.svg" width="100%" alt="Nguyen Van Ngoc Classified SOC Profile"/>
 
 <br>
 
-<img src="https://readme-typing-svg.demolab.com?font=IBM+Plex+Mono&weight=600&size=18&duration=2600&pause=900&color=7DE7FF&center=true&vCenter=true&width=760&lines=Threat+Detection+%2F+Threat+Hunting+%2F+SOC;CTF+%2F+Security+Research+%2F+DFIR;Building+security+systems+that+make+sense." alt="Typing intro"/>
-
-<br>
-
-[![GitHub](https://img.shields.io/badge/GitHub-nguyenngoc1211-111318?style=flat-square&logo=github&logoColor=white)](https://github.com/nguyenngoc1211)
-![Profile Views](https://komarev.com/ghpvc/?username=nguyenngoc1211&style=flat-square&color=6C63FF)
-![Focus](https://img.shields.io/badge/Focus-Defensive%20Security-0F172A?style=flat-square)
+<img src="./assets/radar-console.svg" width="100%" alt="SOC radar console"/>
 
 </div>
 
 ---
 
-## 01 / IDENTITY
-
-```text
-NGUYEN VAN NGOC
-Information Security @ PTIT
-
-FOCUS
-Threat Detection / Threat Hunting / SOC
-
-INTERESTS
-Web Security / DFIR / Reverse Engineering / Cryptography / CTF
-
-MISSION
-Understand attacks. Find traces. Build detections.
-```
-
-I am an Information Security student at PTIT, focused on defensive security and practical security research.
-
-I like turning messy technical evidence into something understandable: logs, artifacts, attack behavior, detection logic, and write-ups.
-
----
-
-## 02 / SELECTED OPERATIONS
-
-<img src="./assets/operations.svg" width="100%" alt="Selected cybersecurity operations"/>
-
-### `01 — WEB THREAT EARLY WARNING`
-ML-assisted web attack detection and automated alert pipeline.
-
-`Nginx/Apache Logs` → `Feature Extraction` → `ML Detection` → `FastAPI` → `SQLite` → `n8n`
-
-[**Explore project ↗**](https://github.com/nguyenngoc1211/web-threat-early-warning)
-
-### `02 — APT THREAT HUNTING`
-Threat-hunting practice centered on attacker behavior, artifacts and indicators.
-
-`Threat Hunting` · `APT Analysis` · `IOC Analysis` · `Security Investigation`
-
-[**Explore project ↗**](https://github.com/nguyenngoc1211/threat_hunter_APT)
-
-### `03 — CTF ARCHIVE`
-Write-ups, scripts, payloads and challenge notes.
-
-`Web` · `Reverse Engineering` · `Digital Forensics` · `Cryptography`
-
-[**Read write-ups ↗**](https://github.com/nguyenngoc1211/WU-CTF)
-
-### `04 — HYBRID MAIL ENCRYPTION`
-Hybrid cryptography for secure email content and attachments.
-
-`AES-256-GCM` · `RSA-OAEP` · `RSA-PSS` · `SHA-256`
-
-[**Explore project ↗**](https://github.com/nguyenngoc1211/ma_lai_RSA_va_AES_ung_dung_ma_hoa_email)
-
----
-
-## 03 / CAPABILITIES
+## `// OPERATOR DOSSIER`
 
 <table>
 <tr>
-<td width="50%" valign="top">
+<td width="62%" valign="top">
 
-### DEFENSIVE
-Threat Detection  
-Threat Hunting  
-SOC  
-Log Analysis  
-Incident Analysis
+### NGUYEN VAN NGOC
+**Information Security Student @ PTIT**
 
-</td>
-<td width="50%" valign="top">
+```text
+CALLSIGN      : NGOC
+ROLE          : CYBERSECURITY STUDENT
+PRIMARY       : SOC / THREAT DETECTION
+SECONDARY     : THREAT HUNTING / CTF
+STATUS        : ACTIVE
+CLEARANCE     : BLUE TEAM
+```
 
-### SECURITY
-Wireshark  
-Burp Suite  
-Nmap  
-IDA Pro  
-cURL
+I focus on understanding attacker behavior, analyzing evidence, and building practical detections from logs, artifacts, and system telemetry.
 
 </td>
-</tr>
+<td width="38%" valign="top">
 
-<tr>
-<td width="50%" valign="top">
+### CURRENT STATUS
 
-### ENGINEERING
-Python  
-C / C++  
-Java  
-JavaScript  
-Shell
+```text
+[●] ONLINE
+[●] LEARNING
+[●] BUILDING
+[●] HUNTING
+[●] DOCUMENTING
+```
 
-</td>
-<td width="50%" valign="top">
+**Mission statement**
 
-### INFRASTRUCTURE
-Linux  
-Docker  
-Nginx  
-Networking  
-Git / GitHub
+> Understand attacks.  
+> Find the traces.  
+> Build better detections.
 
 </td>
 </tr>
 </table>
 
-<div align="center">
-<img src="https://skillicons.dev/icons?i=python,cpp,java,js,bash,linux,docker,nginx,mysql,git,github&theme=dark" alt="Technology stack"/>
-</div>
+---
+
+## `// ACTIVE CASE FILES`
+
+<img src="./assets/case-files.svg" width="100%" alt="Cybersecurity case files"/>
+
+### CASE 001 — WEB THREAT EARLY WARNING
+**Classification:** Defensive Security / Detection Engineering
+
+```text
+SOURCE      Nginx / Apache Access Logs
+PROCESS     Feature Extraction
+ENGINE      Machine Learning
+API         FastAPI
+STORE       SQLite
+AUTOMATION  n8n
+OUTPUT      Security Alert
+```
+
+[**OPEN CASE FILE →**](https://github.com/nguyenngoc1211/web-threat-early-warning)
 
 ---
 
-## 04 / ACHIEVEMENTS
+### CASE 002 — APT THREAT HUNTING
+**Classification:** Threat Hunting / Adversary Analysis
 
 ```text
-2024  —  1st Prize, D23 miniCTF
-2025  —  Honorable Mention, PTITCTF
-      —  Academic Scholarship
-      —  Samsung Penetration Testing Certificate
-      —  Applied AI & ML for Network and Information Security
+OBJECTIVE   Identify suspicious behavior
+EVIDENCE    Artifacts / Indicators / Logs
+METHOD      Threat Hunting
+FOCUS       APT Behavior / IOC Analysis
+OUTPUT      Investigation Notes
+```
+
+[**OPEN CASE FILE →**](https://github.com/nguyenngoc1211/threat_hunter_APT)
+
+---
+
+### CASE 003 — CTF ARCHIVE
+**Classification:** Security Research / Challenge Analysis
+
+```text
+WEB          ACTIVE
+REVERSE      ACTIVE
+FORENSICS    ACTIVE
+CRYPTO       ACTIVE
+WRITE-UPS    ARCHIVED
+```
+
+[**ACCESS ARCHIVE →**](https://github.com/nguyenngoc1211/WU-CTF)
+
+---
+
+### CASE 004 — HYBRID MAIL ENCRYPTION
+**Classification:** Applied Cryptography
+
+```text
+AES-256-GCM   Data encryption
+RSA-OAEP      AES key protection
+RSA-PSS       Digital signature
+SHA-256       Integrity
+```
+
+[**OPEN CASE FILE →**](https://github.com/nguyenngoc1211/ma_lai_RSA_va_AES_ung_dung_ma_hoa_email)
+
+---
+
+## `// TACTICAL CAPABILITIES`
+
+<img src="./assets/capabilities.svg" width="100%" alt="Cybersecurity capabilities"/>
+
+---
+
+## `// FIELD RECORD`
+
+```text
+HYTECH SOLUTIONS
+ROLE          IT INFRASTRUCTURE INTERN
+
+SYSTEMS       Linux
+NETWORK       Networking
+CONTAINERS    Docker
+PROXY         Nginx
+AUTOMATION    Python / Shell
+PIPELINE      CI/CD
+```
+
+Infrastructure experience gives me a stronger understanding of the systems, traffic, and telemetry used in security monitoring and incident investigation.
+
+---
+
+## `// ACHIEVEMENT LOG`
+
+```text
+2024  [GOLD]      1st Prize — D23 miniCTF
+2025  [AWARD]     Honorable Mention — PTITCTF
+      [ACADEMIC]  Academic Scholarship
+      [CERT]      Samsung Penetration Testing Certificate
+      [TRAINING]  Applied AI & ML for Network and Information Security
 ```
 
 ---
 
-## 05 / EXPERIENCE
-
-### IT Infrastructure Intern — Hytech Solutions
-
-`Linux` · `Networking` · `Docker` · `Nginx` · `Python` · `CI/CD`
-
-Infrastructure experience gives me a stronger foundation for understanding the systems, network behavior and telemetry behind security monitoring.
-
----
-
-## 06 / GITHUB SIGNAL
+## `// LIVE GITHUB SIGNAL`
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=nguyenngoc1211&show_icons=true&theme=transparent&hide_border=true&title_color=7DE7FF&text_color=C9D3E4&icon_color=A78BFA&rank_icon=github" />
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=nguyenngoc1211&show_icons=true&hide_border=true&bg_color=0B0D0F&title_color=FF4D4D&text_color=D8D2C4&icon_color=F5A623&rank_icon=github" />
 
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nguyenngoc1211&layout=compact&theme=transparent&hide_border=true&title_color=7DE7FF&text_color=C9D3E4" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nguyenngoc1211&layout=compact&hide_border=true&bg_color=0B0D0F&title_color=FF4D4D&text_color=D8D2C4" />
 
 <br>
 
-<img width="92%" src="https://github-readme-activity-graph.vercel.app/graph?username=nguyenngoc1211&bg_color=00000000&color=9CA3AF&line=7DE7FF&point=A78BFA&area=true&hide_border=true" />
+<img width="92%" src="https://github-readme-activity-graph.vercel.app/graph?username=nguyenngoc1211&bg_color=0B0D0F&color=B9B1A1&line=FF4D4D&point=F5A623&area=true&hide_border=true" />
 
 </div>
 
 ---
 
-## 07 / CONTRIBUTION TRACE
+## `// CONTRIBUTION TRACE`
 
 <div align="center">
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/nguyenngoc1211/nguyenngoc1211/output/github-contribution-grid-snake-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/nguyenngoc1211/nguyenngoc1211/output/github-contribution-grid-snake.svg">
-  <img alt="Contribution snake" src="https://raw.githubusercontent.com/nguyenngoc1211/nguyenngoc1211/output/github-contribution-grid-snake-dark.svg">
+  <img alt="Contribution trace" src="https://raw.githubusercontent.com/nguyenngoc1211/nguyenngoc1211/output/github-contribution-grid-snake-dark.svg">
 </picture>
 
 </div>
 
 ---
 
-## 08 / CURRENT FOCUS
+## `// CURRENT DIRECTIVE`
 
-```python
-current_focus = [
-    "Threat Detection",
-    "Threat Hunting",
-    "SOC Workflow",
-    "Incident Analysis",
-    "Security Automation",
-]
-
-while learning:
-    build()
-    investigate()
-    document()
-    improve()
+```text
+DIRECTIVE 01  Improve threat detection skills
+DIRECTIVE 02  Practice threat hunting
+DIRECTIVE 03  Build security automation
+DIRECTIVE 04  Analyze real attack patterns
+DIRECTIVE 05  Document CTF investigations
 ```
 
 ---
 
-<img src="./assets/footer.svg" width="100%" alt="Break Analyze Understand Detect"/>
+<img src="./assets/footer-stamp.svg" width="100%" alt="Classified footer"/>
 
 <div align="center">
 
-[![Email](https://img.shields.io/badge/EMAIL-hieuhuu113%40gmail.com-16181D?style=flat-square&logo=gmail&logoColor=white)](mailto:hieuhuu113@gmail.com)
-[![GitHub](https://img.shields.io/badge/GITHUB-nguyenngoc1211-16181D?style=flat-square&logo=github&logoColor=white)](https://github.com/nguyenngoc1211)
+[![GitHub](https://img.shields.io/badge/GITHUB-nguyenngoc1211-111111?style=flat-square&logo=github&logoColor=white)](https://github.com/nguyenngoc1211)
+[![Email](https://img.shields.io/badge/CONTACT-hieuhuu113%40gmail.com-7A1515?style=flat-square&logo=gmail&logoColor=white)](mailto:hieuhuu113@gmail.com)
 
 </div>

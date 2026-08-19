@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="780" viewBox="0 0 1400 780">
+<rect width="1400" height="780" rx="18" fill="#0A0B0C"/>
+<text x="42" y="48" font-family="monospace" font-size="14" fill="#746E65" letter-spacing="3">CASE FILE INDEX // 04 RECORDS</text>
+
+<!-- reusable visual structure manually -->
+<g font-family="monospace">
+  <rect x="40" y="82" width="640" height="290" rx="10" fill="#0D0E10" stroke="#472222"/>
+  <text x="68" y="118" font-size="13" fill="#FF4D4D">CASE 001 // DEFENSIVE SECURITY</text>
+  <text x="68" y="164" font-family="Arial" font-weight="800" font-size="33" fill="#EFE9DD">WEB THREAT</text>
+  <text x="68" y="202" font-family="Arial" font-weight="800" font-size="33" fill="#EFE9DD">EARLY WARNING</text>
+  <text x="68" y="248" font-size="14" fill="#B9B1A1">Logs → Features → ML → Alerting</text>
+  <text x="68" y="286" font-size="13" fill="#746E65">Python / FastAPI / Docker / Nginx / n8n</text>
+  <text x="68" y="334" font-size="13" fill="#F5A623">STATUS: ACTIVE</text>
+
+  <rect x="720" y="82" width="640" height="290" rx="10" fill="#0D0E10" stroke="#4A3D20"/>
+  <text x="748" y="118" font-size="13" fill="#F5A623">CASE 002 // THREAT HUNT</text>
+  <text x="748" y="164" font-family="Arial" font-weight="800" font-size="33" fill="#EFE9DD">APT THREAT</text>
+  <text x="748" y="202" font-family="Arial" font-weight="800" font-size="33" fill="#EFE9DD">HUNTING</text>
+  <text x="748" y="248" font-size="14" fill="#B9B1A1">Behavior → Artifacts → IOC → Investigation</text>
+  <text x="748" y="286" font-size="13" fill="#746E65">Threat Hunting / APT / IOC Analysis</text>
+  <text x="748" y="334" font-size="13" fill="#FF4D4D">STATUS: HUNTING</text>
+
+  <rect x="40" y="410" width="640" height="290" rx="10" fill="#0D0E10" stroke="#472222"/>
+  <text x="68" y="446" font-size="13" fill="#FF4D4D">CASE 003 // SECURITY RESEARCH</text>
+  <text x="68" y="492" font-family="Arial" font-weight="800" font-size="33" fill="#EFE9DD">CTF</text>
+  <text x="68" y="530" font-family="Arial" font-weight="800" font-size="33" fill="#EFE9DD">ARCHIVE</text>
+  <text x="68" y="576" font-size="14" fill="#B9B1A1">Web / Reverse / Forensics / Crypto</text>
+  <text x="68" y="614" font-size="13" fill="#746E65">Write-ups / Scripts / Payloads / Notes</text>
+  <text x="68" y="662" font-size="13" fill="#F5A623">STATUS: EXPANDING</text>
+
+  <rect x="720" y="410" width="640" height="290" rx="10" fill="#0D0E10" stroke="#4A3D20"/>
+  <text x="748" y="446" font-size="13" fill="#F5A623">CASE 004 // APPLIED CRYPTOGRAPHY</text>
+  <text x="748" y="492" font-family="Arial" font-weight="800" font-size="33" fill="#EFE9DD">HYBRID MAIL</text>
+  <text x="748" y="530" font-family="Arial" font-weight="800" font-size="33" fill="#EFE9DD">ENCRYPTION</text>
+  <text x="748" y="576" font-size="14" fill="#B9B1A1">AES-256-GCM / RSA-OAEP / RSA-PSS</text>
+  <text x="748" y="614" font-size="13" fill="#746E65">Confidentiality / Integrity / Authenticity</text>
+  <text x="748" y="662" font-size="13" fill="#FF4D4D">STATUS: ARCHIVED</text>
+</g>
+</svg>

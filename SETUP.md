@@ -1,97 +1,68 @@
-# QUICK SETUP
+# SETUP — CLASSIFIED SOC DOSSIER
 
-## 1. Repository name
+This version is intentionally very different from the earlier neon/cyberpunk profile.
 
-Create a **public** repository named exactly:
+## Visual direction
 
-```text
-nguyenngoc1211
-```
+- Black / dark charcoal
+- Classified dossier red
+- Amber radar signal
+- Military/SOC case-file layout
+- No purple/cyan cyberpunk cards
+- No giant wall of badges
+- Custom SVG visuals stored locally
 
-Because your GitHub username is also `nguyenngoc1211`.
-
-## 2. Copy everything
-
-Extract this ZIP and copy all files into the repository, including the hidden `.github` folder.
-
-Structure:
+## Repository structure
 
 ```text
 .
 ├── README.md
 ├── SETUP.md
 ├── assets
-│   ├── hero.svg
-│   ├── operations.svg
-│   └── footer.svg
+│   ├── classified-header.svg
+│   ├── radar-console.svg
+│   ├── case-files.svg
+│   ├── capabilities.svg
+│   └── footer-stamp.svg
 └── .github
     └── workflows
         └── snake.yml
 ```
 
-## 3. Push
+## Push
 
 ```bash
 git add .
-git commit -m "feat: redesign github profile"
+git commit -m "feat: switch profile to classified SOC dossier"
 git push origin main
 ```
 
-## 4. Run the snake once
+## Contribution trace
 
-Go to:
+After push:
 
 ```text
-Repository
-→ Actions
-→ Contribution Snake
-→ Run workflow
+GitHub → Actions → Contribution Trace → Run workflow
 ```
 
-If Actions cannot push the generated `output` branch:
+If it cannot publish:
 
 ```text
-Settings
-→ Actions
-→ General
+Settings → Actions → General
 → Workflow permissions
 → Read and write permissions
-→ Save
 ```
 
-Then rerun the workflow.
-
-## 5. Pin these repositories
-
-Recommended order:
+## Suggested pinned repositories
 
 1. web-threat-early-warning
 2. threat_hunter_APT
 3. WU-CTF
 4. ma_lai_RSA_va_AES_ung_dung_ma_hoa_email
 
-Then choose your two best remaining repositories.
-
-## 6. Suggested GitHub bio
+## Suggested profile bio
 
 ```text
 Cybersecurity Student @ PTIT
-SOC | Threat Detection | Threat Hunting | CTF
+SOC • Threat Detection • Threat Hunting • CTF
 ```
-
-## 7. Design language
-
-This version intentionally avoids the “gaming hacker dashboard” look.
-
-Palette:
-
-```text
-Background      #090B10
-Primary cyan    #7DE7FF
-Violet          #A78BFA
-Pink accent     #FF5C9A
-Text            #F8FAFC
-Muted text      #94A3B8
-```
-
-The hero and project cards are custom local SVG assets, so the profile has a consistent visual identity rather than looking like a generic README generator.

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="260" viewBox="0 0 1400 260">
+<rect width="1400" height="260" rx="18" fill="#0A0B0C"/>
+<line x1="40" y1="50" x2="1360" y2="50" stroke="#3A2F2F"/>
+<text x="45" y="92" font-family="monospace" font-size="13" fill="#746E65" letter-spacing="3">FINAL DIRECTIVE</text>
+<text x="45" y="155" font-family="Arial,Helvetica,sans-serif" font-size="44" font-weight="800" fill="#EFE9DD">BREAK. ANALYZE. UNDERSTAND. DETECT.</text>
+<g transform="translate(1178 165) rotate(-6)">
+  <rect x="-112" y="-40" width="224" height="80" fill="none" stroke="#A71919" stroke-width="4"/>
+  <text x="0" y="-4" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="800" fill="#A71919" text-anchor="middle">AUTHORIZED</text>
+  <text x="0" y="20" font-family="monospace" font-size="12" fill="#A71919" text-anchor="middle">BLUE TEAM // NGOC</text>
+</g>
+</svg>
