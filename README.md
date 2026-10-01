@@ -103,55 +103,105 @@ My current focus is to strengthen practical DevOps skills, understand how modern
 
 ## Featured Projects
 
+### Network Security Gateway Lab
+
+**Repository:** [network-security-gateway-lab](https://github.com/nguyenngoc1211/network-security-gateway-lab)
+
+A hands-on infrastructure and security lab that builds an isolated network gateway on WSL2 with explicit LAN, DMZ, WAN and VPN segments.
+
+**Highlights:**
+
+- Built segmented networking with Linux network namespaces, veth pairs and bridges.
+- Configured a default-drop stateful firewall using nftables.
+- Added NAT, WAN port forwarding and Internet egress controls.
+- Deployed Nginx as a reverse proxy and load balancer for backend web services.
+- Integrated Suricata for IDS/IPS monitoring and WireGuard for VPN access.
+- Added scripts for verification, attack simulation, log correlation and incident investigation.
+
+**Tech:** `Linux` `WSL2` `Networking` `nftables` `Suricata` `WireGuard` `Nginx` `Docker` `Shell`
+
+---
+
+### Cloudflare Mini SOC
+
+**Repository:** [cloudflare-security-lab](https://github.com/nguyenngoc1211/cloudflare-security-lab)
+
+A lightweight cloud security monitoring project deployed on Cloudflare Workers and D1.
+
+**Highlights:**
+
+- Inspects HTTP requests at the edge and calculates risk scores for suspicious activity.
+- Detects common web attack patterns such as SQL injection, XSS, path traversal and command injection.
+- Stores investigation metadata in Cloudflare D1 while avoiding raw IP and payload storage.
+- Implements rate limiting, security headers and automated data-retention cleanup.
+- Provides a dashboard for security event history, threat distribution and incident correlation.
+- Supports local testing and deployment through Wrangler.
+
+**Tech:** `Cloudflare Workers` `D1` `JavaScript` `Wrangler` `Security Monitoring` `Serverless`
+
+---
+
 ### Web Threat Early Warning
 
 **Repository:** [web-threat-early-warning](https://github.com/nguyenngoc1211/web-threat-early-warning)
 
-A web attack early-warning system combining infrastructure, automation and security monitoring.
+An end-to-end security monitoring pipeline for detecting suspicious web traffic from Nginx and Apache access logs.
 
 **Highlights:**
 
-- Analyze Nginx / Apache access logs.
-- Extract features for suspicious-event detection.
-- Build an inference API using FastAPI.
-- Store alerts using SQLite.
-- Use n8n to automate alert forwarding.
-- Build a lab environment with Docker, Nginx and OWASP Juice Shop.
-- Train and compare Machine Learning models for attack detection.
+- Parses access logs and converts them into flow-like security events.
+- Serves a machine-learning scoring model through FastAPI.
+- Persists alerts in SQLite and forwards actionable events to n8n.
+- Includes health checks and deployment assets for operational use.
+- Provides a reproducible Docker lab using Nginx and OWASP Juice Shop.
+- Includes training and benchmarking scripts for attack-detection models.
 
-**Tech:** `Python` `FastAPI` `Docker` `Nginx` `SQLite` `n8n` `Security Monitoring`
+**Tech:** `Python` `FastAPI` `Docker` `Nginx` `SQLite` `n8n` `Machine Learning`
 
 ---
 
-### Hybrid Mail Encryption — AES & RSA
+### SIEM Lab
 
-**Repository:** [ma_lai_RSA_va_AES_ung_dung_ma_hoa_email](https://github.com/nguyenngoc1211/ma_lai_RSA_va_AES_ung_dung_ma_hoa_email)
+**Repository:** [SIEM_LAB](https://github.com/nguyenngoc1211/SIEM_LAB)
 
-A demonstration application for hybrid cryptography used to protect email content and attachments.
+A SOC lab that combines centralized security monitoring, attack detection, automation and MITRE ATT&CK mapping.
 
 **Highlights:**
 
-- AES-256-GCM for data encryption.
-- RSA-OAEP for AES key protection.
-- RSA-PSS + SHA-256 for digital signatures.
-- Implemented key generation, encryption, decryption and signature verification in Python.
+- Uses Nginx and OWASP Juice Shop as a controlled security testing environment.
+- Integrates Suricata and Wazuh for network and host security monitoring.
+- Uses n8n for security automation workflows.
+- Maps IDS alerts to MITRE ATT&CK through a dedicated processing pipeline.
+- Uses Qdrant, embedding and reranking components to support alert analysis.
+- Includes runbooks, handoff documentation and Docker-based lab components.
 
-**Tech:** `Python` `AES-256-GCM` `RSA-OAEP` `RSA-PSS` `SHA-256`
+**Tech:** `Wazuh` `Suricata` `Docker` `Nginx` `n8n` `Qdrant` `MITRE ATT&CK`
 
 ---
 
-### CTF Write-ups
+### TravelVerse
 
-**Repository:** [WU-CTF](https://github.com/nguyenngoc1211/WU-CTF)
+**Repository:** [travelverse](https://github.com/nguyenngoc1211/travelverse)
 
-Write-ups and notes from practicing cybersecurity challenges.
+A frontend travel-planning application that demonstrates application development, testing and production build workflows.
 
-**Topics:**
+**Highlights:**
 
-- Web Security
-- Reverse Engineering
-- Digital Forensics
-- Cryptography
+- Built with React, TypeScript, Vite and Tailwind CSS.
+- Supports trip planning, destination filtering, favorites and budget tracking.
+- Uses Playwright for browser-level functional testing.
+- Includes lint, build and preview workflows for production readiness.
+- Organizes application code into reusable components, hooks, pages and typed data models.
+
+**Tech:** `React` `TypeScript` `Vite` `Tailwind CSS` `Playwright`
+
+---
+
+## Other Projects
+
+- **[PTMD](https://github.com/nguyenngoc1211/PTMD)** — Malware-memory feature analysis using XGBoost, Python/R pipelines and reproducible experiment scripts.
+- **[WU-CTF](https://github.com/nguyenngoc1211/WU-CTF)** — CTF write-ups covering Web Security, Reverse Engineering, Digital Forensics and Cryptography.
+- **[Hybrid Mail Encryption](https://github.com/nguyenngoc1211/ma_lai_RSA_va_AES_ung_dung_ma_hoa_email)** — Python implementation of AES-256-GCM, RSA-OAEP and RSA-PSS for secure email content and attachments.
 
 ---
 
